@@ -22,7 +22,7 @@ const route = createBrowserRouter([
         element: <Chair />,
       },
       {
-        path: "/react-vite-ecommerce/table",
+        path: "/react-vite-ecommerce/tabel",
         element: <Tabel />,
       },
       {
