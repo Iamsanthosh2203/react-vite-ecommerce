@@ -14,10 +14,10 @@ export default function App() {
       <Routers>
         <Routes>
           <Route path="/react-vite-ecommerce/" element={<Home />} />
-          <Route path="react-vite-ecommerce/products" element={<Products />} />
-          <Route path="react-vite-ecommerce/sofa" element={<Sofa />} />
-          <Route path="react-vite-ecommerce/chair" element={<Chair />} />
-          <Route path="react-vite-ecommerce/table" element={<Tabel />} />
+          <Route path="/react-vite-ecommerce/products" element={<Products />} />
+          <Route path="/react-vite-ecommerce/sofa" element={<Sofa />} />
+          <Route path="/react-vite-ecommerce/chair" element={<Chair />} />
+          <Route path="/react-vite-ecommerce/table" element={<Tabel />} />
         </Routes>
       </Routers>
     </>
