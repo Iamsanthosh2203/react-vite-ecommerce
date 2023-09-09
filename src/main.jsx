@@ -5,7 +5,7 @@ import "./index.css";
 import { RouteProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Chair from "./pages/Chair.jsx";
-import Table from "./pages/Table.jsx";
+import Tabel from "./pages/Tabel.jsx";
 import Sofa from "./pages/Sofa.jsx";
 
 const route = createBrowserRouter([
@@ -23,7 +23,7 @@ const route = createBrowserRouter([
       },
       {
         path: "/react-vite-ecommerce/table",
-        element: <Table />,
+        element: <Tabel />,
       },
       {
         path: "/react-vite-ecommerce/sofa",
