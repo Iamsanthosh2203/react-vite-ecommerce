@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { RouteProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Chair from "./pages/Chair.jsx";
 import Tabel from "./pages/Tabel.jsx";
@@ -35,6 +35,6 @@ const route = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouteProvider router={route} />
+    <RouterProvider router={route} />
   </React.StrictMode>
 );
