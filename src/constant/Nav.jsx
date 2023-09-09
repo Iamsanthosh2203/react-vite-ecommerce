@@ -7,7 +7,7 @@ function Nav() {
         </a>
         <ul className="hidden md:flex gap-12 font-oswald font-thin">
           <li>
-            <a href="/products">All Products</a>
+            <a href="react-vite-ecommerce/products">All Products</a>
           </li>
           <li>
             <a href="/sofa">Sofa</a>
